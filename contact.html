@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact chef
+    </title>
+     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="component.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <link rel="stylesheet" href="globalstyle.css">
+</head>
+<body>
+    
+    <!-- nav start -->         
+    <div class="navigation">
+
+        <div class="container">
+            <div id="logo">
+                <a href="index.html"><img src="./images/logo.svg" alt=""></a>
+            </div>
+            <div class="nav-options">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li ><a id="primary-btn" href="booking.html">Book Table</a></li>
+                </ul>
+                <div class="hamburger"><div class="line"></div></div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- nav ends -->
+    <!-- store info  starts -->
+    <section id="store__info">
+        <div class="container">
+          <div class="storeInfo--wrapper">
+            <div class="info-item">
+              <div class="store-img">
+                <img src="./images/wall-clock-icon.svg" alt="" />
+              </div>
+  
+              <div class="store-data">
+                <h3>10 AM -6PM</h3>
+                <p class="store-para">Openeing Hour</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="store-img">
+                <img src="./images/phone-icon.svg" alt="" />
+              </div>
+              <div class="store-data">
+                <h3>+4464223664</h3>
+                <p class="store-data">Call Now</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="store-img">
+                <img src="./images/address-icon.svg" alt="" />
+              </div>
+              <div class="store-data">
+                <h3>GEC, Chittagong</h3>
+                <p class="store-para">Address</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- store info ends -->
+    <!-- form starts -->
+      <section id="form">
+          <div class="container">
+              <h1 class="form__title">
+                Contact & Enquiry
+              </h1>
+              <div class="form--wrapper">
+                  <form >
+                      <div class="form__group">
+                          <label for="firstName">First Name</label>
+                     <input type="text" id="firstName" name="first_name" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="lastName">Last Name</label>
+                       <input type="text" id="lastName" name="last_name" required>
+                          </div>
+                          <div class="form__group">
+                            <label for="email">Email</label>
+                       <input type="email" id="email" name="email" required>
+                          </div>
+                          <div class="form__group">
+                            <label for="subject">Subject</label>
+                       <input type="text" id="subject" name="subject" required>
+                          </div>
+                          <div class="form__group">
+                      <label for="message">Message</label>
+                      <textarea name="" id="" cols="30" rows="10"></textarea>
+                          </div>
+                        <button type="submit" id="primary-btn"> Submit</button>
+
+                  </form>
+              </div>
+          </div>
+      </section>
+    <!-- form ends -->
+    <!-- aos script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

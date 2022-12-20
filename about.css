@@ -1,0 +1,52 @@
+.story--wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.ourstory--title{
+    font-family: 'Poppins';
+    font-size: 2.4rem;
+}
+.ourstory--subtitle{
+    font-family: 'Ralway';
+    font-size: 1.4rem;
+    margin: 1.2rem 0;
+}
+.our-info{
+    font-family: 'Ralway';
+    font-size: 1.2rem;
+}
+.ourgoal-title{
+    font-family: 'Poppins';
+    font-size: 3rem ;
+}
+.about-para{
+    margin: 1.5rem 0;
+    font-size: 1.8rem ;
+    line-height: 2.2rem;
+}
+.photo--wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.photo--wrapper img{
+    width: 250px;
+    height: 250px;
+}
+.left--photos{
+    
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+@media only screen and (min-width:700px){
+    .story--wrapper{
+        gap: 3rem;
+        flex-direction: row;
+    }
+.our-img,
+.right--wrapper{
+    flex: 1;
+}
+}
